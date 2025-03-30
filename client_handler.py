@@ -154,7 +154,6 @@ class Client_Handler:
                 return 0, attributes
             return 0, None
         elif command_type == "regenerate" or command_type == "regen" or command_type == "reg":
-            print(self.history[self.sid])
             last_assistant = self.history[self.sid].pop()
             last_message = self.history[self.sid].pop() #user
             self._remove_context(last_assistant)
