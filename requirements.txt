@@ -1,0 +1,7 @@
+duckduckgo-search
+openai
+KSockets
+pyinstaller
+python-dotenv
+pyyaml
+loguru

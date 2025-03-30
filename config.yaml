@@ -1,0 +1,16 @@
+AI:
+  base_url: https://example.com/v1
+  instruction_file: Concise
+  internet_access: true
+  model: gpt-4o-mini
+  optimizer_file: Default
+  temperature: 1.2
+Chat:
+  context: 2
+  longterm_memory: 10
+  max_history: 6
+  optimize_memory: false
+Server:
+  IP: 127.0.0.1
+  KEY: UnsecurePassword
+  PORT: 3009
